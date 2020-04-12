@@ -4,6 +4,7 @@ import json
 import os
 
 database_path = os.environ['DATABASE_URL']
+# database_path = 'postgres://alanabellucci@localhost:5432/herokutest'
 
 db = SQLAlchemy()
 
